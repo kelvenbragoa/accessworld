@@ -27,9 +27,9 @@
 					<div class="d-table-cell align-middle">
 
 						<div class="text-center mt-4">
-							<h1 class="h2">{{__('text.welcome_back')}}</h1>
-                            <h1 class="h2">Inogest - Inovatis</h1>
-							<p class="lead">
+							<h1 class="h2" style="color:white">{{__('text.welcome_back')}}</h1>
+                            <h1 class="h2" style="color:white">Inogest - Inovatis</h1>
+							<p class="lead" style="color:white">
 								{{__('text.enter_your_account')}}
 							</p>
 						</div>

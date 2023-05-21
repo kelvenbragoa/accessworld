@@ -16,7 +16,10 @@
 	<link href="{{asset('template/css/app.css')}}" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: url('storage/img/sys/background.jpg'); height: 100%; 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;">
 	<main class="d-flex w-100">
 		<div class="container d-flex flex-column">
 			<div class="row vh-100">
@@ -24,8 +27,8 @@
 					<div class="d-table-cell align-middle">
 
 						<div class="text-center mt-4">
-							<h1 class="h2">{{__('text.welcome_back')}}</h1>
-                            <h1 class="h2">Inogest - Inovatis</h1>
+							<h1 class="h2" style="color:white">{{__('text.welcome_back')}}</h1>
+                            <h1 class="h2" style="color:white">Inogest - Inovatis</h1>
 							
 						</div>
 
