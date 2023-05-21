@@ -28,7 +28,7 @@
 
 						<div class="text-center mt-4">
 							<h1 class="h2" style="color:white">{{__('text.welcome_back')}}</h1>
-                            <h1 class="h2" style="color:white">Inogest - Inovatis</h1>
+                            <h1 class="h2" style="color:white">InoGest - INOVATIS MZ LTD</h1>
 							<p class="lead" style="color:white">
 								{{__('text.enter_your_account')}}
 							</p>

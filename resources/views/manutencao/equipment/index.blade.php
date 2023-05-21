@@ -34,7 +34,7 @@
                                 <th style="width:10%">Marca</th>
                                 <th style="width:10%">Tipo</th>
                                 <th style="width:10%">Serial</th>
-                                <th style="width:10%">Chassis</th>
+                                <th style="width:10%">Referencia</th>
                                 <th style="width:5%">Ano</th>
                                 <th style="width:10%">Estado</th>
                                 <th>{{__('text.action')}}</th>
@@ -50,7 +50,7 @@
                                     <td>{{$item->model}}</td>
                                     <td>{{$item->type->name}}</td>
                                     <td>{{$item->serial}}</td>
-                                    <td>{{$item->chassis}}</td>
+                                    <td>{{$item->ref}}</td>
                                     <td>{{$item->year}}</td>
                                     <td>@if ($item->status == 1) <span class="badge bg-success">Disponível</span> @else <span class="badge bg-danger">Indisponível</span> @endif</td>
                                     <td class="table-action">
