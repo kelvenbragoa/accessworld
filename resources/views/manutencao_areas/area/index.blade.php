@@ -5,7 +5,7 @@
 
     <div class="row mb-2 mb-xl-3">
         <div class="col-auto d-none d-sm-block">
-            <h3><strong>{{__('text.analytics_dashboard')}} - {{\App\Models\Area::find(Auth::user()->role_id)->name}}</strong></h3>
+            <h3><strong>{{__('text.analytics_dashboard')}} - {{\App\Models\Area::find(Auth::user()->role_id)->name ?? ''}}</strong></h3>
         </div>
 
         
