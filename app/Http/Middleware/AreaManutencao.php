@@ -18,7 +18,7 @@ class AreaManutencao
     public function handle(Request $request, Closure $next)
     {
         {
-            if(Auth::user()->role->name == "eletrica" || Auth::user()->role->name == "equipamentos_rolantes" || Auth::user()->role->name == "guindastes" || Auth::user()->role->name == "graneis_palamenta" || Auth::user()->role->name == "salubridade" || Auth::user()->role->name == "armazem" || Auth::user()->role->name == "admin_planificacao"){ 
+            if(Auth::user()->role->name == "manutencao_albimaq" || Auth::user()->role->name == "manutencao_centrocar" || Auth::user()->role->name == "manutencao_danmo") { 
                 return $next($request);
             }else{
                 return redirect()->back();

@@ -52,6 +52,13 @@
                             </div>
                             
                         </div>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label class="form-label" for="inputEmail4">Previsão de saída:</label>
+                                <input type="datetime-local" class="form-control" name="output_forecast" id="output_forecast" placeholder="Abertura" required> 
+                            </div>
+                            
+                        </div>
 
                         <div class="row">
                             <div class="mb-3 col-md-6">
